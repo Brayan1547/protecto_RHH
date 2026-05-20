@@ -4,6 +4,24 @@ function getUsers(req, res)  {
     });
 };
 
+function updateUsers(req, res ) {
+    res.json({
+        msg: 'usuario actualizado'
+    });
+};
+
+function deleteusers(req, res){
+    res.json({
+        msg:'elieminar usuario'
+    });
+};
+
+function createUser(req, res){
+    res.json({
+        msg:'crea un usuario'
+    });
+};
+
 module.exports = {
-    getUsers
+    getUsers , updateUsers, deleteusers, createUser
 };
