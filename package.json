@@ -10,8 +10,9 @@
   "author": "brayan andres gonzalez perez ",
   "contributors": [],
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2"
   }
 }

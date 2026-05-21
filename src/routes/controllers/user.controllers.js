@@ -22,6 +22,9 @@ function createUser(req, res){
     });
 };
 
-module.exports = {
-    getUsers , updateUsers, deleteusers, createUser
+export {
+    getUsers, 
+    updateUsers, 
+    deleteusers, 
+    createUser
 };
